@@ -359,11 +359,12 @@ footer {
 
 .footer__social-media_svg {
   fill: #fff;
+  border-radius: 50%;
 }
 
 .footer__social-media_svg:hover {
   background-color: #31d0aa;
-  border-radius: 50%;
+  
 }
 /* Portfolio */
 
