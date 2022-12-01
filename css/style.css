@@ -318,6 +318,11 @@ header {
   border: 1px solid var(--blu-color);
 }
 
+.customers-svg:focus{
+  fill: var(--blu-color);
+  border: 1px solid var(--blu-color);
+}
+
 footer {
   background-color: var(--brand-color2);
 }
@@ -364,7 +369,10 @@ footer {
 
 .footer__social-media_svg:hover {
   background-color: #31d0aa;
-  
+}
+
+.footer__social-media_svg:focus{
+  background-color: #31d0aa;
 }
 /* Portfolio */
 
