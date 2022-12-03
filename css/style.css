@@ -18,7 +18,7 @@ body {
 }
 
 :root {
-  --brand-color: #272734;
+  --brand-color: #434455;
   --blu-color: #4d5ae5;
   --blu-color2: #404bbf;
   --brand-color2: #2e2f42;
@@ -103,7 +103,7 @@ header {
 }
 
 .header__contact li a {
-  color: var(--brand-color);
+  color: var(--brand-color2);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -120,7 +120,7 @@ header {
 
 .header__contact__link:hover,
 .header__contact__link:focus {
-  color: var(--brand-color);
+  color: var(--blu-color);
 }
 
 .header__contact__link:active {
@@ -184,14 +184,16 @@ header {
   gap: 24px;
 }
 
-.main__text__list li {
-  max-width: 264px;
-}
-
 .main__text__list__icon {
-  padding: 24px 100px;
   background: #f4f4fd;
   border-radius: 4px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-benefits {
@@ -260,14 +262,21 @@ header {
 
 .social_media_team {
   display: flex;
-  height: 48px;
   gap: 24px;
   padding: 4px 0;
 }
 
 .social_media_team-link {
-  display: block;
-  height: 100%;
+  width: 40px;
+  height: 40px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--blu-color);
+  background-color: var(--blu-color);
 }
 
 .teammate h3 {
@@ -304,23 +313,29 @@ header {
 }
 
 .customers__link {
-  display: block;
-  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 168px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers__link:hover,
+.customers__link:focus {
+  border: 1px solid var(--blu-color);
 }
 
 .customers-svg {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
   fill: #8e8f99;
 }
 .customers-svg:hover {
   fill: var(--blu-color);
-  border: 1px solid var(--blu-color);
 }
 
-.customers-svg:focus{
+.customers-svg:focus {
   fill: var(--blu-color);
-  border: 1px solid var(--blu-color);
 }
 
 footer {
@@ -358,20 +373,21 @@ footer {
 }
 
 .footer__social-media_link {
-  display: block;
-  height: 100%;
-}
-
-.footer__social-media_svg {
-  fill: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
 }
 
-.footer__social-media_svg:hover {
+.footer__social-media_link:hover {
   background-color: #31d0aa;
 }
 
-.footer__social-media_svg:focus{
+.footer__social-media_link:focus {
   background-color: #31d0aa;
 }
 /* Portfolio */
