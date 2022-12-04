@@ -322,19 +322,20 @@ header {
   align-items: center;
 }
 
-.customers__link:hover,
-.customers__link:focus {
-  border: 1px solid var(--blu-color);
-}
-
 .customers-svg {
   fill: #8e8f99;
 }
-.customers-svg:hover {
+
+.customers__link:hover,
+.customers__link:focus{
+  border: 1px solid var(--blu-color);
+}
+
+.customers__link:hover .customers-svg{
   fill: var(--blu-color);
 }
 
-.customers-svg:focus {
+.customers__link:hover .customers-svg{
   fill: var(--blu-color);
 }
 
