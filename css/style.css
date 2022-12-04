@@ -322,13 +322,13 @@ header {
   align-items: center;
 }
 
-.customers-svg {
-  fill: #8e8f99;
-}
-
 .customers__link:hover,
 .customers__link:focus{
   border: 1px solid var(--blu-color);
+}
+
+.customers-svg {
+  fill: #8e8f99;
 }
 
 .customers__link:hover .customers-svg{
